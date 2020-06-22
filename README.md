@@ -10,9 +10,9 @@ in order to effectively parallelize two key steps that have a long runtime and r
 Please follow the steps below to run the workflow (NOTE: ensure you change some file paths in Snakefiles (e.g. /path/to/S04380110_Covered.headless.bed):
 <br>
 <br> 
-1. `git clone bhklab Snakemake`
-2. `cd` into exome dir.
-3.  `cd` into each step in order (step 1 - 5) and submit respective step to H4H like the following example: `sbatch snake_submit_step1.sh`
+1. `git clone` this repo
+2. `cd` into ExomeProcess dir.
+3. `cd` into each step in order (step 1 - 5) and submit respective step to H4H like the following example: `sbatch snake_submit_step1.sh`
 <br> 
 (NOTE: in step 2, run snake_submit_step2.sh before snake_submit_step2merge.sh)
 <br>
